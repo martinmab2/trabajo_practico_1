@@ -41,7 +41,6 @@ public class Producto {
 		if (descuento>=0) {
 			auxiliar=(double)descuento/100;
 			montoDescuento=precio*auxiliar;
-			precioDescuento=precio-montoDescuento;
 		}
 		precioDescuento=precio-montoDescuento;
 		return precioDescuento;

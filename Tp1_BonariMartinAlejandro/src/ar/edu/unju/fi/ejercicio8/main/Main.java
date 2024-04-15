@@ -18,5 +18,4 @@ public class Main {
 		calculadora.CalcularProductoria();
 		System.out.println("Resultado de la productoria: "+calculadora.CalcularProductoria());
 	}
-
 }
